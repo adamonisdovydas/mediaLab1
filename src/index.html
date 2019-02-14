@@ -25,10 +25,10 @@
 	     src="https://example.com/index.m3u8"
 	     type="application/x-mpegURL">
 	</video>
+	<script src="js/videojs.js"></script>
 	<script src="js/videojs-contrib-hls.js"></script>
-	<script src="js/videojs-contrib-hls.min.js"></script>
 	<script>
-	var player = videojs-contrib-hls('example-video');
+	var player = videojs('example-video');
 	player.play();
 	</script>
   
